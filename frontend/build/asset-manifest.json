@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ca1788b.css",
+    "main.js": "/static/js/main.40d7ccde.js",
+    "static/media/headerimage.jpg": "/static/media/headerimage.bc867733813b1ebc8751.jpg",
+    "static/media/background.png": "/static/media/background.7fdd32bfdf992d9523b2.png",
+    "static/media/ibnu.png": "/static/media/ibnu.478fc706c6b127db1c61.png",
+    "static/media/Backend.png": "/static/media/Backend.1738fb1ad17c79d1e153.png",
+    "static/media/lookist.png": "/static/media/lookist.ab99c0760b1593b4b6db.png",
+    "static/media/FrontEnd.png": "/static/media/FrontEnd.fad9ff450d4c7be8bd78.png",
+    "index.html": "/index.html",
+    "main.2ca1788b.css.map": "/static/css/main.2ca1788b.css.map",
+    "main.40d7ccde.js.map": "/static/js/main.40d7ccde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ca1788b.css",
+    "static/js/main.40d7ccde.js"
+  ]
+}
