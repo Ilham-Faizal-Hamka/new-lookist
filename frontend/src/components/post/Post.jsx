@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Post({ post }) {
-  const PF = "https://new-lookist-api.vercel.app/images/";
+  const PF = "/images/";
   return (
     <div className="w-[400px] h-[460px] mt-0 mr-[58px] mb-10 bg-abu-abu p-5 rounded-lg ">
       {post.photo && <img className="w-full h-72 object-cover rounded-lg" src={PF + post.photo} alt="" />}
