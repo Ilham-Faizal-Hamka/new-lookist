@@ -10,7 +10,9 @@ const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
 
-app.use(cors())
+app.use(cors({
+    origin: "https://new-lookist.vercel.app/"
+}))
 
 dotenv.config({ path: ".env" });
 app.use(express.json());
