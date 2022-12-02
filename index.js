@@ -12,9 +12,12 @@ const path = require("path");
 
 dotenv.config({ path: ".env" });
 app.use(express.json());
-app.use(cors({
-    origin: '*'
-}));
+app.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", "*")
+    res.setHeader("Access-Control-Allow-Methods", "*")
+    res.setHeader("Access-Control-Allow-Headers", "*")
+})
+app.use(cors())
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
 mongoose
